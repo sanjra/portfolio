@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+p {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.lyrics-container {
+  display: flex;
+  margin: 30px 0;
+}
+
+.lyrics-container p {
+  margin: 10px;
+}
