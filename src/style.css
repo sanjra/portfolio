@@ -6,7 +6,6 @@
 
 body {
   margin: 60px auto;
-  max-width: 1200px;
 }
 
 h1,
@@ -17,9 +16,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
-  background-color: var(--primary-color);
-  color: rgb(209, 209, 209);
+  color: #3f5efb;
 }
 
 h2 {
@@ -40,20 +37,22 @@ p {
 }
 
 footer {
-  background-color: var(--secondary-color);
   text-align: center;
 }
 
 .container {
   background-color: var(--secondary-color);
-}
-.lyrics-container {
-  display: flex;
-  margin: 30px 0;
+  box-shadow: 3.5px 7px 7px hsl(0deg 0% 0% / 0.39);
 }
 
-.lyrics-container p {
+.lyrics-container {
+  display: flex;
   margin: 10px;
+  background-image: linear-gradient(rgb(156, 68, 234), rgb(91, 52, 123));
+}
+
+.english-lyrics p {
+  color: blue;
 }
 
 .space-links:hover {
@@ -75,7 +74,7 @@ a:hover {
 }
 
 a:visited {
-  color: #437a16;
+  color: #fff;
   text-decoration: none;
 }
 
