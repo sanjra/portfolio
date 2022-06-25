@@ -110,4 +110,9 @@ a:visited {
   .vibing-vids {
     max-width: 200px;
   }
+
+  .spotify-playlist {
+    max-width: 100px;
+    height: 100px;
+  }
 }
