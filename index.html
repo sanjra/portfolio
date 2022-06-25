@@ -2,36 +2,91 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+      <meta
+      name="description"
+      content="Building a coded portfolio following lesson from SheCodes, created by sanjra_sandra"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="src/style.css" rel="stylesheet" />
+    <title>Coded Portfolio 👩‍💻 | sanjra_sandra</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <title>Sanjra's Portfolio</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link href="src/style.css" rel="stylesheet" />
+    
   </head>
   <body>
-    <div class="container">
-      <p>
-      <h1 class="p-3">Sanjra Space</h1>
-      </p>
-      <div class="container p-4 border">
-        <div class="row text-center text-uppercase justify-content-evenly">
-          <a class="btn btn-dark p-1 col-sm-3 text-decoration-none" href="about.html" role="button">About me</a>
-          <br />
-          <a class="btn btn-light p-1 col-sm-3 text-decoration-none" href="music.html" role="button">Music</a>
-          <br />
-          <a class="btn btn-dark p-1 col-sm-3 text-decoration-none" href="recipes/lasagne.html" role="button">Lasange recipe</a>
-          <br />
-          <a class="btn btn-light p-1 col-sm-3 text-decoration-none" href="projects.html" role="button">Projects</a>
-          <br />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container pb-2">
+        <div class="row">
+         
+            <a class="navbar-brand fs-2 text-xl-start" href="/"
+              >Sanjra Space</a
+            > 
+         
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" 
+                 aria-current="page" 
+                 href="/" 
+                 title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" 
+                 href="/about.html"
+                 title="About Milky Mostly"
+                 >About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" 
+              href="/about.html#contact"
+              title="Contact sanjra_sandra">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" 
+              href="/music.html"
+              title="Coding Lyrics">Music</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" 
+              href="/recipes/lasagne.html"
+              title="Recipes by sanjra">Lasange recipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" 
+              href="/projects.html"
+              title="Projects by sanjra">Projects</a>
+            </li>
+            </ul>
         </div>
       </div>
-
-      <div>
+    </nav>
+   <div class="container pt-5">
+    <div class="container rounded">
         <figure class="text-center">
           <blockquote class="blockquote">
             <p>
@@ -39,24 +94,61 @@
               what people think you've got.
             </p>
           </blockquote>
-          <figcaption class="blockquote-footer">
+          <figcaption class="blockquote-footer pb-2">
             Sophia Loren <cite title="Source Title"></cite>
           </figcaption>
         </figure>
       </div>
-      
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/038/485/original/bexterity_pinupforaday_sandrabezzina_002.jpg?1656146161"
+              alt="sanj pin up portrait"
+              class="img-fluid rounded "
+              width="400"
+              />
+          </div>
+        </div>
+
+         <div class="container rounded">
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <p>
+              Are you sitting comfortably? Then get up. This is no time for sloth.
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer pb-2">
+            Maureen Lipman <cite title="Source Title"></cite>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="container rounded">
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <p>
+              I think you learn more if you're laughing at the same thing.
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer pb-2">
+            Mary Ann Shaffer <cite title="Source Title"></cite>
+          </figcaption>
+        </figure>
+      </div>
+
       <footer class="p-2">
-         <div class="row">
-          <div class="col-lg-12">
+        <div class="row">
+          <div class="col-sm-12">
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/549/original/Ice-creamWeather.png?1654599173"
               alt="sanj-logo"
-              class="logo"
+              class="logo img-fluid"
             />
           </div>
         </div>
-        
       </footer>
+    </div>
+    </div>
     </div>
   </body>
 </html>
